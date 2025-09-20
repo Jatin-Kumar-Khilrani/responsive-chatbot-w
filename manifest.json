@@ -1,0 +1,41 @@
+{
+  "name": "Sahaay - Privacy-First AI Messaging",
+  "short_name": "Sahaay",
+  "description": "Privacy-first AI messaging companion for India with hyperlocal intelligence, mood detection, and group insights.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4338ca",
+  "orientation": "portrait",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "./icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["social", "communication", "productivity"],
+  "shortcuts": [
+    {
+      "name": "New Chat",
+      "short_name": "New Chat",
+      "description": "Start a new conversation",
+      "url": "./",
+      "icons": [
+        {
+          "src": "./icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}

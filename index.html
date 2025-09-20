@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sahaay - Privacy-First AI Messaging</title>
+    <meta name="description" content="Privacy-first AI messaging companion for India with hyperlocal intelligence, mood detection, and group insights.">
+    <meta name="keywords" content="AI messaging, privacy-first, WhatsApp alternative, hyperlocal AI, India, chatbot">
+    <meta name="author" content="Sahaay Team">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Sahaay - Privacy-First AI Messaging">
+    <meta property="og:description" content="WhatsApp-like messaging with AI capabilities, privacy-first design, and hyperlocal intelligence for India.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/responsive-chatbot-w/og-image.png">
+    
+    <!-- Progressive Web App -->
+    <meta name="theme-color" content="#4338ca">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Sahaay">
+    <link rel="manifest" href="./manifest.json">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="alternate icon" href="./favicon.ico">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    
+    <!-- GitHub Pages SPA routing -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+      
+      // GitHub Pages base path detection
+      window.GITHUB_PAGES_BASE = window.location.hostname === 'jatin-kumar-khilrani.github.io' 
+        ? '/responsive-chatbot-w/' 
+        : '/';
+    </script>
+    
+    <!-- Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('./sw.js')
+            .then(function(registration) {
+              console.log('SW registered: ', registration);
+            })
+            .catch(function(registrationError) {
+              console.log('SW registration failed: ', registrationError);
+            });
+        });
+      }
+    </script>
+  <script type="module" crossorigin src="/responsive-chatbot-w/assets/index-CTwItRDe.js"></script>
+  <link rel="modulepreload" crossorigin href="/responsive-chatbot-w/assets/vendor-DbHEDQBy.js">
+  <link rel="modulepreload" crossorigin href="/responsive-chatbot-w/assets/ui-C2R5wB_J.js">
+  <link rel="stylesheet" crossorigin href="/responsive-chatbot-w/assets/index-Diepq2xI.css">
+</head>
+
+<body>
+    <div id="root"></div>
+</body>
+
+</html>
